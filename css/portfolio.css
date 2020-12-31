@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'SeoulNamsan';
+    src: url('fonts/SeoulNamsan Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/SeoulNamsan Regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/SeoulNamsan Regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/SeoulNamsan Regular.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('fonts/SeoulNamsan Regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/SeoulNamsan Regular.svg') format('svg');
+    /* Legacy iOS */
+}
+
+:focus { outline: none; }
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: SeoulNamsan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.08em;
+}
+
+h2 {
+    font-family: SeoulNamsan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+}
+
+ul {
+    font-family: SeoulNamsan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+}
+
+.navbar {
+    min-height: 120px;
+    padding: 0;
+    background-color: #fff !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-spacer {
+    flex-grow: 1;
+}
+
+.jumbotron {
+    min-height: 65vh;
+}
+
+.navbar a {
+    float: right;
+    color: #463F3A;
+    text-align: center;
+    padding: 20px 69px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: #E0AFA0;
+}
+
+.navbar a.active {
+    background-color: #ffffff;
+    color: #E0AFA0;
+}
+
+
+body {
+    background: #fff;
+}
+
+body,
+body>* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+* {
+    transition: all .3s ease 0s;
+}
+
+/* .accordion {
+    background-color: #E0AFA0;
+} */
+
+/* Main layout */
+
+html,
+body,
+.accordion {
+    width: 100%;
+    height: 80vh;
+}
+
+.accordion {
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+/* Articles */
+
+.accordion article {
+    background-color: #E0AFA0;
+    margin: 0 2px 0 2px;
+    flex: initial;
+    width: 20%;
+    /* height: 100%; */
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    padding: 2vh 1vw;
+    position: relative;
+    opacity: 0;
+}
+
+.visible{
+    opacity: 0.5 !important;
+}
+
+
+article:nth-child(1) {
+  margin-left:0;
+  background-image: url('res/1.jpg');
+}
+
+article:nth-child(2) {
+  background-image: url('res/2.jpg');
+}
+
+article:nth-child(3) {
+  background-image: url('res/3.jpg');
+}
+
+article:nth-child(4) {
+  background-image: url('res/4.jpg');
+}
+
+article:nth-child(5) {
+  margin-right:0;
+  background-image: url('res/5.jpg');
+}
+
+/* Big Headings */
+
+body>div:first-child {
+    position: fixed;
+    bottom: 8vh;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    z-index: 2;
+}
+
+body>div:first-child h1,
+body>div:first-child h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hover interaction */
+
+.accordion:hover article {
+    flex: initial;
+    width: 10%;
+}
+
+.accordion article:hover {
+    width: 60%;
+    opacity: 1 !important;
+    color: white;
+}
+
+article div {
+    opacity: 0;
+    transition: opacity .2s ease 0;
+}
+
+article a {
+    text-decoration: none;
+    color: white;
+}
+
+.accordion article:hover div {
+    opacity: 1;
+    transition: opacity .3s ease .3s;
+    color: white;
+    text-decoration: none;
+}
+
+.accordion article:hover a {
+    color: white;
+    text-decoration: none;
+}
+
+/* navigation */
+
+.accordion article h2 {
+    bottom: 2vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-size: 3vh;
+}
+
+/* Article layouts */
+
+article div {
+    text-align: left;
+    width: 58vw;
+}
+
+article div p,
+article div div h2,
+article div h3 {
+    margin: 0 0 1em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+article div p {
+    width: 40vw;
+}
+
+@media (max-width: 900px) {
+
+    .accordion article {
+        padding: 2vh 3vw;
+    }
+
+    .accordion article h2 {
+        transform: rotate(90deg);
+        bottom: 23vh;
+        min-width: 12em;
+        text-align: left;
+        transform: rotate(-90deg);
+        transform-origin: 0 0 0;
+        opacity: 1;
+    }
+
+    .accordion article:hover h2 {
+        opacity: 0;
+        color: white;
+    }
+
+    article div p {
+        width: 50vw;
+    }
+
+    article div {
+        max-height: calc(72%);
+        overflow-y: auto;
+    }
+}
