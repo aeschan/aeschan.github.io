@@ -1,0 +1,22 @@
+{
+  "name": "aeschan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeschan/aeschan.github.io.git"
+  },
+  "author": "Sharon Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeschan/aeschan.github.io/issues"
+  },
+  "homepage": "https://github.com/aeschan/aeschan.github.io#readme",
+  "dependencies": {
+    "nuxt": "^2.15.6"
+  }
+}
