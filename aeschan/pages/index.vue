@@ -1,26 +1,18 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">
-        aeschan
+        Sharon Chan
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
+      <div class="links flex place-content-around max-w-">
+       <a href="https://www.linkedin.com/in/sharonycchan" target="_blank" class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:outline-none">
+          <img src="~/assets/icons/linkedin.svg">
         </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
+        <a href="https://www.instagram.com/s.ychn/" target="_blank" class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:outline-none">
+          <img src="~/assets/icons/ig.svg">
+        </a>
+        <a href="mailto:sharon.chan19@gmail.com" target="_blank" class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:outline-none">
+          <img src="~/assets/icons/mail.svg">
         </a>
       </div>
     </div>
@@ -48,17 +40,14 @@ export default Vue.extend({})
   text-align: center;
 }
 
+@font-face {
+    font-family: 'SeoulNamsan M';
+    src: url('~assets/fonts/SeoulNamsanM_c.ttf') format('truetype');
+}
+
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'SeoulNamsan M';
+  font-style: normal;
   display: block;
   font-weight: 300;
   font-size: 100px;
