@@ -9,13 +9,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.5.3",
+    "@nuxt/content": "^1.14.0",
     "core-js": "^3.9.1",
-    "nuxt": "^2.2.0"
+    "nuxt": "^2.15.6"
   },
   "devDependencies": {
-    "@nuxt/types": "^0.4.1",
-    "@nuxt/typescript-build": "^0.3.6",
+    "@nuxt/types": "^2.15.6",
+    "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/tailwindcss": "^4.1.2",
     "postcss": "^8.3.0"
   }
