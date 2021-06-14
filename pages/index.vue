@@ -3,46 +3,52 @@
     <Navbar />
 
     <div
-      class="bg-pink-500 shadow-md rounded-lg mx-auto text-center py-12 mt-4"
+      class="bg-white mx-auto text-center py-12 mt-4"
     >
-      <h2
-        class="
-          text-3xl
-          leading-9
-          font-bold
-          tracking-tight
-          text-white
-          sm:text-4xl
-          sm:leading-10
-        "
-      >
-        Welcome to my page!
-      </h2>
+      <p class="jumbotron-title">Hi! I’m Sharon.</p>
+      <p class="jumbotron-text">
+        A finance student turned UX Designer.<br/><br/>I am passionate about
+        understanding how people interact with products and how their needs can
+        be translated into inclusive designs.
+      </p>
       <div class="mt-8 flex justify-center">
-        <div class="inline-flex rounded-md bg-white shadow">
-          
-        </div>
+        <div class="inline-flex rounded-md bg-white shadow"></div>
       </div>
     </div>
 
     <div class="mt-5 flex justify-between flex-wrap">
-      <div v-for="(article, idx) in articles" :key="article.slug" class="post mx-2 my-2 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:via-purple-600" :style="{ 'background-image': `url(${'images/' + article.img})` }">
+      <div
+        v-for="(article, idx) in articles"
+        :key="article.slug"
+        class="
+          post
+          mx-2
+          my-2
+          transition
+          duration-200
+          ease-in-out
+          transform
+          hover:-translate-y-1
+          hover:scale-110
+          hover:via-purple-600
+        "
+        :style="{ 'background-image': `url(${'images/' + article.img})` }"
+      >
         <div class="flex flex-col shadow-md text-left align-text-bottom h-48">
           <p class="post-title">
             <span>
-            {{ article.title }}
+              {{ article.title }}
             </span>
           </p>
-          <br>
+          <br />
           <p class="post-date">
             <span>
               {{ article.createdAt }}
             </span>
           </p>
         </div>
-      </div >
+      </div>
     </div>
-
     <Footer />
   </div>
 </template>
@@ -71,8 +77,9 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,500;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,500;1,400&display=swap");
 
 .container {
   margin: 0 auto;
@@ -84,6 +91,20 @@ export default {
   text-align: center;
 }
 
+.jumbotron-title {
+  font-family: "Quicksand";
+  text-align: left;
+  font-size: 50px;
+  color: #000;
+}
+
+.jumbotron-text {
+  font-family: "Quicksand";
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+}
+
 .post {
   flex: 1 0 32%;
   background-position: center 20%;
@@ -92,48 +113,22 @@ export default {
 }
 
 .post-title {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: x-large;
-  color: #FFF
+  color: #fff;
 }
 
 .post-title span {
-  background-color: #000; 
+  background-color: #000;
 }
 
 .post-date {
-  font-family: 'Karla', sans-serif;
-  color: #FFF
+  font-family: "Karla", sans-serif;
+  color: #fff;
 }
 
 .post-date span {
-  background-color: #000; 
-}
-
-
-@font-face {
-  font-family: "SeoulNamsan M";
-  src: url("~assets/fonts/SeoulNamsanM_c.ttf") format("truetype");
-}
-
-.title {
-  font-family: "SeoulNamsan M";
-  font-style: normal;
-  display: block;
-  /* font-weight: 600; */
-  font-size: 20px;
-  color: #463f3a;
-  letter-spacing: 3px;
-}
-
-.subtitle {
-  font-family: "SeoulNamsan M";
-  font-style: normal;
-  display: block;
-  /* font-weight: 600; */
-  font-size: 15px;
-  color: #463f3a;
-  letter-spacing: 3px;
+  background-color: #000;
 }
 
 .links {

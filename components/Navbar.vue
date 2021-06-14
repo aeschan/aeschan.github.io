@@ -45,13 +45,11 @@
 </template>
 
 <style>
-@font-face {
-  font-family: "SeoulNamsan M";
-  src: url("~assets/fonts/SeoulNamsanM_c.ttf") format("truetype");
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .title {
-  font-family: "SeoulNamsan M";
+  font-family: "Quicksand";
   font-style: normal;
   display: block;
   /* font-weight: 600; */
@@ -61,7 +59,7 @@
 }
 
 .subtitle {
-  font-family: "SeoulNamsan M";
+  font-family: "Quicksand";
   font-style: normal;
   display: block;
   /* font-weight: 600; */

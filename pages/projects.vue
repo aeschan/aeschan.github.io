@@ -41,7 +41,6 @@ export default Vue.extend({})
   text-align: center;
 }
 
-
 .links {
   padding-top: 15px;
 }
