@@ -45,9 +45,6 @@
 </template>
 
 <style>
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
 .title {
   font-family: "Quicksand";
   font-style: normal;
