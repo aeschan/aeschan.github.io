@@ -2,17 +2,30 @@
   <div class="container">
     <Navbar />
 
-    <div class="bg-pink-500 shadow-md rounded-lg mx-auto text-center py-12 mt-4">
-        <h2 class="text-3xl leading-9 font-bold tracking-tight text-white sm:text-4xl sm:leading-10">
-            Don't delay, buy today!
-        </h2>
-        <div class="mt-8 flex justify-center">
-            <div class="inline-flex rounded-md bg-white shadow">
-                <a href="#" class="text-gray-700 font-bold py-2 px-6">
-                    Start
-                </a>
-            </div>
-        </div>
+    <div class="flex flex-row justify-between mt-14">
+      <div class="sm:w-3/4 md:w-2/3 px-10">
+        <p class="description-text">
+          One Liner about me
+        <br/>
+        <br/>
+          Imaginative . Learner . Mediator
+        <br/>
+        <br/>
+          Hi! I’m Sharon and I am a junior UX Designer based in Toronto, Canada.
+          <br/>
+          <br/>
+          I am passionate about figuring out people problems and incorporating
+          Human centered design into the work I do. I like having conversations
+          with users and understanding problems from a variety of viewpoints.
+          <br/>
+          <br/>
+          In 2020, I graduated from Rotman Commerce at University of Toronto, where
+          I received my Bcom specializing in Finance & Economics.
+        </p>
+      </div>
+      <div class="sm:w-1/4 md:w-1/3">
+        <img class="object-cover h-48 w-full h-full" src="https://placekitten.com/400/500"/> 
+      </div>
     </div>
 
     <Footer />
@@ -20,9 +33,9 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
-export default Vue.extend({})
+export default Vue.extend({});
 </script>
 
 <style>
@@ -39,6 +52,13 @@ export default Vue.extend({})
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.description-text {
+  font-family: "Quicksand";
+  text-align: left;
+  font-size: 20px;
+  color: #000;
 }
 
 

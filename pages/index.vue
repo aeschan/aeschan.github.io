@@ -6,7 +6,7 @@
       class="bg-white mx-auto text-center py-12 mt-4"
     >
       <p class="jumbotron-title">Hi! I’m Sharon.</p>
-      <p class="jumbotron-text">
+      <p class="jumbotron-text max-w-5xl">
         A finance student turned UX Designer.<br/><br/>I am passionate about
         understanding how people interact with products and how their needs can
         be translated into inclusive designs.
@@ -32,7 +32,7 @@
           hover:scale-110
           hover:via-purple-600
         "
-        :style="{ 'background-image': `url(${'images/' + article.img})` }"
+        :style="{ 'background-image': `url(http://placekitten.com/${Math.floor(Math.random() * 100) + 400}/500)` }"
       >
         <div class="flex flex-col shadow-md text-left align-text-bottom h-48">
           <p class="post-title">
