@@ -3,7 +3,7 @@ export default {
   target: 'static',
   extractCSS: true,
   router: {
-    base: '/aeschan.github.io/'
+    base: '/'
   },
   server: {
     host: ''
