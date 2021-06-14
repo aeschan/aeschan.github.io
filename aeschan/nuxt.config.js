@@ -2,9 +2,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   extractCSS: true,
-  router: {
-    base: '/aeschan.github.io/'
-  },
   server: {
     host: ''
   },
