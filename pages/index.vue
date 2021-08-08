@@ -1,54 +1,59 @@
 <template>
-  <div class="container">
+  <div class="container flex flex-col min-h-screen">
     <Navbar />
 
-    <div
-      class="bg-white mx-auto text-center py-12 mt-4"
-    >
-      <p class="jumbotron-title">Hi! I’m Sharon.</p>
-      <p class="jumbotron-text max-w-5xl">
-        A finance student turned UX Designer.<br/><br/>I am passionate about
-        understanding how people interact with products and how their needs can
-        be translated into inclusive designs.
-      </p>
-      <div class="mt-8 flex justify-center">
-        <div class="inline-flex rounded-md bg-white shadow"></div>
-      </div>
-    </div>
-
-    <div class="mt-5 flex justify-between flex-wrap">
-      <div
-        v-for="(article, idx) in articles"
-        :key="article.slug"
-        class="
-          post
-          mx-2
-          my-2
-          transition
-          duration-200
-          ease-in-out
-          transform
-          hover:-translate-y-1
-          hover:scale-110
-          hover:via-purple-600
-        "
-        :style="{ 'background-image': `url(http://placekitten.com/${Math.floor(Math.random() * 100) + 400}/500)` }"
-      >
-        <div class="flex flex-col shadow-md text-left align-text-bottom h-48">
-          <p class="post-title">
-            <span>
-              {{ article.title }}
-            </span>
-          </p>
-          <br />
-          <p class="post-date">
-            <span>
-              {{ article.createdAt }}
-            </span>
-          </p>
+    <main class="flex-auto">
+      <div class="bg-white mx-auto text-center py-12 mt-4">
+        <p class="jumbotron-title">Hi! I’m Sharon.</p>
+        <p class="jumbotron-text max-w-5xl">
+          A finance student turned UX Designer.<br /><br />I am passionate about
+          understanding how people interact with products and how their needs
+          can be translated into inclusive designs.
+        </p>
+        <div class="mt-8 flex justify-center">
+          <div class="inline-flex rounded-md bg-white shadow"></div>
         </div>
       </div>
-    </div>
+
+      <div class="mt-5 flex justify-between flex-wrap">
+        <div
+          v-for="(article, idx) in articles"
+          :key="article.slug"
+          class="
+            post
+            mx-2
+            my-2
+            transition
+            duration-200
+            ease-in-out
+            transform
+            hover:-translate-y-1
+            hover:scale-110
+            hover:via-purple-600
+          "
+          :style="{
+            'background-image': `url(http://placekitten.com/${
+              Math.floor(Math.random() * 100) + 400
+            }/500)`,
+          }"
+        >
+          <div class="flex flex-col shadow-md text-left align-text-bottom h-48">
+            <p class="post-title">
+              <span>
+                {{ article.title }}
+              </span>
+            </p>
+            <br />
+            <p class="post-date">
+              <span>
+                {{ article.createdAt }}
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <Footer />
   </div>
 </template>
@@ -131,4 +136,9 @@ export default {
 .links {
   padding-top: 15px;
 }
+
+main {
+  flex: 1 1 auto;
+}
+
 </style>

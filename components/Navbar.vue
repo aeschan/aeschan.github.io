@@ -1,6 +1,5 @@
 <template>
   <nav class="bg-white-10">
-    <div class="mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex px-8 py-4">
           <NuxtLink class="title" to="/">SHARON CHAN</NuxtLink>
@@ -32,7 +31,6 @@
             </svg>
           </button>
         </div>
-      </div>
     </div>
 
     <!-- mobile menu -->
