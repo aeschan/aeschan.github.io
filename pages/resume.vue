@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container flex flex-col">
     <Navbar />
 
     <div class="bg-pink-500 shadow-md rounded-lg mx-auto text-center py-12 mt-4">

@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "SeoulNamsan";
+    src: local("SeoulNamsan"),     url(~assets/fonts/SeoulNamsanM_c2.ttf) format("truetype");}
+
 body {
     scrollbar-width: none
 }

@@ -3,11 +3,17 @@ export default {
   target: 'static',
   extractCSS: true,
   router: {
-    base: '/'
+    base: '/',
+    component: 'projects',
+    linkActiveClass: 'nuxt-active-link',
+    linkExactActiveClass: 'nuxt-exact-active-link',
   },
   server: {
     host: ''
   },
+  serverMiddleware: [
+    '~/middleware/redirect.js'
+  ],
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

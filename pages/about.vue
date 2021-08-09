@@ -5,10 +5,9 @@
     <main class="flex-auto">
       <div class="flex flex-row justify-between mt-14">
         <div class="sm:w-3/4 md:w-2/3 px-10">
+          <p class="description-title">One liner about me</p>
+          <br>
           <p class="description-text">
-            One Liner about me
-            <br />
-            <br />
             Imaginative . Learner . Mediator
             <br />
             <br />
@@ -31,6 +30,36 @@
             class="object-cover h-48 w-full h-full"
             src="https://placekitten.com/400/500"
           />
+        </div>
+      </div>
+      <div class="flex flex-row justify-between mt-14">
+        <div class="sm:w-3/4 md:w-2/3 px-10">
+          <p class="description-title">Line 1</p>
+          <br>
+          <p class="description-text">
+           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+        </div>
+        <div class="sm:w-1/4 md:w-1/3 text-left">
+        <p class="description-title">Contact</p>
+        <br>
+        <a class="contact-text" href="mailto:sharonyc.chan@mail.utoronto.ca">sharonyc.chan@mail.utoronto.ca</a>
+        <br>
+        <br>
+        <p class="description-title">Resume</p>
+        <br>
+        <br>
+        <br>
+        <p class="description-title">Interests</p>
+        <br>
+        <ul class="interests-list">
+          <li>Dance</li>
+          <li>Art</li>
+          <li>Baking</li>
+          <li>Gaming</li>
+          <li>Garlic Bread</li>
+          <li>RGB Lighting</li>
+        </ul>
         </div>
       </div>
     </main>
@@ -62,10 +91,36 @@ export default Vue.extend({});
 }
 
 .description-text {
-  font-family: "Quicksand";
+  font-family: "SeoulNamsan";
   text-align: left;
   font-size: 20px;
+  font-weight: 400;
   color: #000;
+}
+
+.description-title {
+  font-family: "Quicksand";
+  font-size: 20px;
+  text-align: left;
+}
+
+.contact-text {
+  font-family: "SeoulNamsan";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.interests-list {
+  text-align: left;
+  list-style-type: none; /* Remove bullets */
+}
+
+.interests-list li {
+  font-family: "SeoulNamsan";
+  font-size: 14px;
+  line-height: 25px;
 }
 
 .links {
