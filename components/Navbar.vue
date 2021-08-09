@@ -12,7 +12,7 @@
     </div>
 
     <!-- mobile button goes here -->
-    <div class="md:hidden flex items-center">
+    <div class="md:hidden flex items-center px-8">
       <button class="mobile-menu-button">
         <svg
           class="w-6 h-6"

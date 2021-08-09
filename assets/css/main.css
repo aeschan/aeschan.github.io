@@ -1,7 +1,17 @@
 @font-face {
     font-family: "SeoulNamsan";
-    src: local("SeoulNamsan"),     url(~assets/fonts/SeoulNamsanM_c2.ttf) format("truetype");}
+    src: local("SeoulNamsan"),     url(~assets/fonts/SeoulNamsanM_c2.ttf) format("truetype");
+}
 
 body {
     scrollbar-width: none
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.25s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
 }

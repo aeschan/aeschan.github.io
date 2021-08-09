@@ -1,57 +1,60 @@
 <template>
-  <div class="container flex flex-col">
-    <Navbar />
-
-    <main class="flex-auto">
-      <div class="flex flex-row justify-between mt-14">
-        <div class="sm:w-3/4 md:w-2/3 px-10">
-          <p class="description-title">One liner about me</p>
-          <br>
-          <p class="description-text">
-            Imaginative . Learner . Mediator
-            <br />
-            <br />
-            Hi! I’m Sharon and I am a junior UX Designer based in Toronto,
-            Canada.
-            <br />
-            <br />
-            I am passionate about figuring out people problems and incorporating
-            Human centered design into the work I do. I like having
-            conversations with users and understanding problems from a variety
-            of viewpoints.
-            <br />
-            <br />
-            In 2020, I graduated from Rotman Commerce at University of Toronto,
-            where I received my Bcom specializing in Finance & Economics.
-          </p>
-        </div>
-        <div class="sm:w-1/4 md:w-1/3">
-          <img
-            class="object-cover h-48 w-full h-full"
-            src="https://placekitten.com/400/500"
-          />
-        </div>
+  <div class="container">
+    <div class="flex flex-row justify-between mt-14">
+      <div class="sm:w-3/4 md:w-2/3 px-10">
+        <p class="description-title">One liner about me</p>
+        <br />
+        <p class="description-text">
+          Imaginative . Learner . Mediator
+          <br />
+          <br />
+          Hi! I’m Sharon and I am a junior UX Designer based in Toronto, Canada.
+          <br />
+          <br />
+          I am passionate about figuring out people problems and incorporating
+          Human centered design into the work I do. I like having conversations
+          with users and understanding problems from a variety of viewpoints.
+          <br />
+          <br />
+          In 2020, I graduated from Rotman Commerce at University of Toronto,
+          where I received my Bcom specializing in Finance & Economics.
+        </p>
       </div>
-      <div class="flex flex-row justify-between mt-14">
-        <div class="sm:w-3/4 md:w-2/3 px-10">
-          <p class="description-title">Line 1</p>
-          <br>
-          <p class="description-text">
-           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-        </div>
-        <div class="sm:w-1/4 md:w-1/3 text-left">
+      <div class="sm:w-1/4 md:w-1/3">
+        <img
+          class="object-cover h-48 w-full h-full"
+          src="https://placekitten.com/400/500"
+        />
+      </div>
+    </div>
+    <div class="flex flex-row justify-between mt-14">
+      <div class="sm:w-3/4 md:w-2/3 px-10">
+        <p class="description-title">Line 1</p>
+        <br />
+        <p class="description-text">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </div>
+      <div class="sm:w-1/4 md:w-1/3 text-left">
         <p class="description-title">Contact</p>
-        <br>
-        <a class="contact-text" href="mailto:sharonyc.chan@mail.utoronto.ca">sharonyc.chan@mail.utoronto.ca</a>
-        <br>
-        <br>
+        <br />
+        <a class="contact-text" href="mailto:sharonyc.chan@mail.utoronto.ca"
+          >sharonyc.chan@mail.utoronto.ca</a
+        >
+        <br />
+        <br />
         <p class="description-title">Resume</p>
-        <br>
-        <br>
-        <br>
+        <br />
+        <br />
+        <br />
         <p class="description-title">Interests</p>
-        <br>
+        <br />
         <ul class="interests-list">
           <li>Dance</li>
           <li>Art</li>
@@ -60,11 +63,8 @@
           <li>Garlic Bread</li>
           <li>RGB Lighting</li>
         </ul>
-        </div>
       </div>
-    </main>
-
-    <Footer />
+    </div>
   </div>
 </template>
 
@@ -82,7 +82,6 @@ export default Vue.extend({});
 */
 .container {
   margin: 0 auto;
-  min-height: 100vh;
   /* display: flex;
   flex-direction: column; */
   justify-content: center;

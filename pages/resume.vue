@@ -1,7 +1,5 @@
 <template>
   <div class="container flex flex-col">
-    <Navbar />
-
     <div class="bg-pink-500 shadow-md rounded-lg mx-auto text-center py-12 mt-4">
         <h2 class="text-3xl leading-9 font-bold tracking-tight text-white sm:text-4xl sm:leading-10">
             Don't delay, buy today!
@@ -14,8 +12,6 @@
             </div>
         </div>
     </div>
-
-    <Footer />
   </div>
 </template>
 
@@ -33,7 +29,6 @@ export default Vue.extend({})
 */
 .container {
   margin: 0 auto;
-  min-height: 100vh;
   /* display: flex;
   flex-direction: column; */
   justify-content: center;

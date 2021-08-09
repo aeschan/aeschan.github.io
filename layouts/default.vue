@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <Nuxt />
+  <div class="flex flex-col min-h-screen">
+    <Navbar />
+    <Nuxt class="flex-auto"/>
+    <Footer />
   </div>
 </template>
 
