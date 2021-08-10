@@ -18,15 +18,14 @@
         :key="article.slug"
         :article="article"
         class="
-          post
           mx-2
           my-2
           transition
-          duration-200
-          ease-in-out
+          duration-400
+          ease-in-expo
           transform
           hover:-translate-y-1
-          hover:scale-110
+          hover:scale-103
           hover:via-purple-600
         "
       >
@@ -81,32 +80,6 @@ export default {
   text-align: left;
   font-size: 30px;
   color: #000;
-}
-
-.post {
-  flex: 1 0 32%;
-  background-position: center 20%;
-  background-size: cover;
-  background-blend-mode: soft-light;
-}
-
-.post-title {
-  font-family: "Karla", sans-serif;
-  font-size: x-large;
-  color: #fff;
-}
-
-.post-title span {
-  background-color: #000;
-}
-
-.post-date {
-  font-family: "Karla", sans-serif;
-  color: #fff;
-}
-
-.post-date span {
-  background-color: #000;
 }
 
 .links {

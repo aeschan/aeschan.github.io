@@ -14,7 +14,12 @@ purge: {
 },
 darkMode: false, // or 'media' or 'class'
 theme: {
-    extend: {},
+    extend: {
+        transitionTimingFunction: {
+            'in-expo': 'cubic-bezier(.05,.91,.13,1)',
+            'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+        }
+    },
 },
 variants: {
     extend: {},
