@@ -11,7 +11,7 @@
       "
     >
       <div
-        class="flex-auto min-h-full h-80 rounded-t-3xl"
+        class="flex-auto min-h-full h-48 md:h-72 sm:h-48 rounded-t-3xl"
         :style="{
           'background-image': `url(images/${article.img})`,
           'background-size': 'cover',

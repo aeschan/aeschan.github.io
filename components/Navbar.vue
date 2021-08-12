@@ -1,4 +1,5 @@
 <template>
+<div class="flex flex-col">
   <div class="flex flex-row justify-between w-full">
     <div class="px-8 py-4">
       <div class="title">SHARON CHAN</div>
@@ -30,17 +31,18 @@
         </svg>
       </button>
     </div>
-
+  </div>
+  
     <!-- mobile menu -->
     <div class="mobile-menu hidden md:hidden">
       <NuxtLink class="subtitle py-5 px-8" to="/projects">PROJECTS</NuxtLink>
       <NuxtLink class="subtitle py-5 px-8" to="/about">ABOUT</NuxtLink>
       <NuxtLink class="subtitle py-5 px-8" to="/resume">RESUME</NuxtLink>
     </div>
-  </div>
+    </div>
 </template>
 
-<style>
+<style scoped>
 .title {
   font-family: "Quicksand";
   font-style: normal;
