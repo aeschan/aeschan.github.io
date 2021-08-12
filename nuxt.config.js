@@ -1,5 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
+  ssr: true,
   target: 'static',
   extractCSS: true,
   router: {
@@ -7,13 +8,20 @@ export default {
     component: 'projects',
     linkActiveClass: 'nuxt-active-link',
     linkExactActiveClass: 'nuxt-exact-active-link',
+    routes: [
+      {
+        path: '/',
+        redirect: { name: 'projects' },
+        component: 'pages/projects.vue'
+      }
+    ]
   },
   server: {
     host: ''
   },
-  serverMiddleware: [
-    '~/middleware/redirect.js'
-  ],
+  // serverMiddleware: [
+  //   '~/middleware/redirect.js'
+  // ],
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
