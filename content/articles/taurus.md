@@ -4,7 +4,20 @@ subtitle: UX/UI Design, UX Research
 description: Calling bull on marketing claims
 img: taurus.png
 jumboimg: taurus_jumbo.png
-alt: my first blog post
+
+# Details section
+roles: 
+    - UX Designer
+    - UX Researcher
+timeframe: Feb 2021 - May 2021
+teammates: 
+    - 2PMs + 2 Engineers
+tools: 
+    - Figma
+    - InVisiton
+    - Miro
+    - Github
+platform: Browser Extension
 ---
 ## Overview
 ### The Challenge<br />
@@ -19,6 +32,7 @@ With the pandemic, there has been a large uptrend in online grocery shopping and
 We designed MealTap, a digital card loyalty program, exclusively for prepared food shoppers at Whole Foods. The program aims to ease the frustration of long express checkout lines and give shoppers the same autonomy and independence in the payment process that they enjoy in the meal-selection process. 
 
 Overall, the recommended program reaps financial reward for Whole Foods as a result of faster checkout, higher rates of customer satisfaction, and increased meal loyalty.
+<br /><br />
 
 ### The Problem
 In this age of media information overload, users are susceptible to overreaching product claims, especially if they can't spend time and effort to interpret product labels or research marketing claims.

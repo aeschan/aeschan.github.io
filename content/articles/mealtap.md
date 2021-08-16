@@ -4,11 +4,25 @@ subtitle: Mealtap Loyalty Program
 description: How to Drive and Reward Customer Loyalty For Prepared Meal Shoppers
 img: mealtap.png
 jumboimg: mealtap_jumbo.png
-alt: my first blog post
+
+# Details section
+roles: 
+    - UX Designer
+    - UX Researcher
+timeframe: 2 months
+teammates: 
+    - Isabelle O’Hara
+    - Luda Ludo Masalila
+    - Shao Xu
+    - Sharon Chan
+    - Tamas Deak
+platform: Digital Loyalty Program
+organizer: RSM459 Final Project
 ---
 
 ## Overview
 <br/>
+
 ### Problem
 WholeFoods prepared meal shoppers enjoy the customizable and fast experience of butying meals from the hot and cold food bars, but their end experience of waiting in the ironically long “express” checkout lines leaves them frustrated.
 <br/><br/>

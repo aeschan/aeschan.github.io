@@ -13,7 +13,7 @@
       <div
         class="flex-auto min-h-full h-48 md:h-72 sm:h-48 rounded-t-3xl"
         :style="{
-          'background-image': `url(images/${article.img})`,
+          'background-image': `url(images/${article.slug}/${article.img})`,
           'background-size': 'cover',
           'background-repeat': 'no-repeat',
           'background-position': 'top'

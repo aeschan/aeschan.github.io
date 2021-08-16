@@ -49,10 +49,6 @@
         >
         <br />
         <br />
-        <p class="description-title">Resume</p>
-        <br />
-        <br />
-        <br />
         <p class="description-title">Interests</p>
         <br />
         <ul class="interests-list">
