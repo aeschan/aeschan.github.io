@@ -3,7 +3,7 @@ title: Mealtap Loyalty Program
 subtitle: Mealtap Loyalty Program
 description: How to Drive and Reward Customer Loyalty For Prepared Meal Shoppers
 img: mealtap.png
-jumboimg: mealtap_jumbo.png
+jumboimg: mealtap_jumbo.jpg
 
 # Details section
 roles: 
@@ -25,16 +25,46 @@ organizer: RSM459 Final Project
 
 ### Problem
 WholeFoods prepared meal shoppers enjoy the customizable and fast experience of butying meals from the hot and cold food bars, but their end experience of waiting in the ironically long “express” checkout lines leaves them frustrated.
-<br/><br/>
+<br/><br/><br/>
 <i>
 <p class="quote">“ How might we, Whole Foods, help prepared meal shoppers to reduce frustration with their experience in the long weigh-and-pay process? ”</p>
 </i>
-<br/>
+<br/><br/>
 
 ### Solution
 We designed MealTap, a digital card loyalty program, exclusively for prepared food shoppers at Whole Foods. The program aims to ease the frustration of long express checkout lines and give shoppers the same autonomy and independence in the payment process that they enjoy in the meal-selection process. 
 
 Overall, the recommended program reaps financial reward for Whole Foods as a result of faster checkout, higher rates of customer satisfaction, and increased meal loyalty.
+<br/><br/><br/>
+
+<div class="flex flex-row items-center">
+  <img src="./images/mealtap/card.jpg" class="px-10">
+
+  </img>
+  <div class="px-10">
+      <h2 class="text-left">Digital Card</h2>
+      <br />
+      Loadable Digital Wallet
+      <br />
+      <br />
+      The digital card is a loadable card on the Whole Foods App, similar to the Presto card in Toronto. It can be reloaded with an online payment option on the Whole Foods website so there is a declining balance each time the user pays for their food. It can also be linked to digital wallets such as Apple and Google Pay, giving users easy access. 
+  </div>
+</div>
+<br/><br/>
+
+<div class="flex flex-row items-center">
+  <div class="px-10">
+      <h2 class="text-left">Weigh&Pay</h2>
+      <br />
+      Payment Sticker Tap Card
+      <br />
+      <br />
+      Once the weight and price is determined, the customer will be prompted to tap their phone or physical card just like a normal credit card, the price will be deducted from their balance, and a receipt will be printed. 
+  </div>
+  <img src="./images/mealtap/weighpay.jpg" class="px-10">
+
+  </img>
+</div>
 <br/><br/>
 
 ### Our Approach
@@ -55,23 +85,33 @@ First, we conducted intensive secondary research to gain a preliminary understan
 
 ### Secondary Research
 From the analysis, we learned that:
-This target group is health conscious and cares about environmental issues and sustainability. Their demeanor depicts a progressive group with sophisticated goals, they value fitness and they complement this with specific nutritional choices. 
-
-Because of these specific lifestyle choices, this target is willing to pay more for natural and organically sourced products and ingredients.
-
-These customers are more likely to share their lifestyle choices with friends, family and partners. They value the experience of picking fresh groceries for their meal prep or dinner with friends. 
-
-A research done by PwC accedes to these insights as it highlights that by Canadians still prefer an in-store experience. Only 20% said they would be “likely” to purchase groceries online in the next 12 months, with 69% saying they were “unsure or not likely”.
+<ul class="list-disc mx-5">
+  <li>This target group is health conscious and cares about environmental issues and sustainability.</li>
+  <li>Their demeanor depicts a progressive group with sophisticated goals, they value fitness and they complement this with specific nutritional choices.</li>
+  <li>Because of these specific lifestyle choices, this target is willing to pay more for natural and organically sourced products and ingredients.</li>
+  <li>These customers are more likely to share their lifestyle choices with friends, family and partners.</li>
+  <li>They value the experience of picking fresh groceries for their meal prep or dinner with friends.</li>
+  <li>A research done by PwC accedes to these insights as it highlights that by Canadians still prefer an in-store experience.</li>
+  <li>Only 20% said they would be “likely” to purchase groceries online in the next 12 months, with 69% saying they were “unsure or not likely”.</li>
+</ul>
 <br/><br/>
 
 ### Field Observations & Intercept Interviews
 We conducted empathy interviews, customer intercepts and observed shopping trends and customer behaviors at the Whole Foods Yorkville location. This was an ongoing two-week process of engaging with customers and experiencing the store as they would in order to get to the core of their frustrations.
-
+<br/><br/>
 We then gathered observational data at the Yorkville location of Whole Foods, and executed intercept interviews at the same location. The key findings we observed can be separated into human observations and store observations.
+<br/>
+<br/>
+<img src="./images/mealtap/observation.jpg" class="px-10" />
 <br/><br/>
 
 ### Key Takeaways
 From the research, interviews, and store observations, we then grouped and identified themes from our qualitative interview data.
+<br/>
+<br/>
+<div class="flex flex-row items-center place-items-center max-w-2xl">
+  <img src="./images/mealtap/takeaways.jpg" />
+</div>
 <br/><br/>
 
 ### Persona
