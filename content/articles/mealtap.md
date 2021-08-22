@@ -33,7 +33,7 @@ WholeFoods prepared meal shoppers enjoy the customizable and fast experience of 
 
 ### Solution
 We designed MealTap, a digital card loyalty program, exclusively for prepared food shoppers at Whole Foods. The program aims to ease the frustration of long express checkout lines and give shoppers the same autonomy and independence in the payment process that they enjoy in the meal-selection process. 
-
+<br/><br/>
 Overall, the recommended program reaps financial reward for Whole Foods as a result of faster checkout, higher rates of customer satisfaction, and increased meal loyalty.
 <br/><br/><br/>
 
@@ -109,85 +109,142 @@ We then gathered observational data at the Yorkville location of Whole Foods, an
 From the research, interviews, and store observations, we then grouped and identified themes from our qualitative interview data.
 <br/>
 <br/>
-<div class="flex flex-row items-center place-items-center max-w-2xl">
+<div class="flex flex-row mx-auto max-w-2xl">
   <img src="./images/mealtap/takeaways.jpg" />
 </div>
 <br/><br/>
 
 ### Persona
 Based on the secondary research and interviews, I took the lead to create the following persona to help us guide our design.
+<br/>
+<br/>
+<div class="flex flex-row mx-auto max-w-2xl">
+  <img src="./images/mealtap/persona.jpg" />
+</div>
 <br/><br/>
 
 ### Ideation
 Based on the evidence we collected from user research, we created a user journey map on users’ current Whole Foods shopping experience. We wanted to figure out where would be the right time to implement a solution that could make a difference. 
 We conducted an informed brainstorming session. Each member came up with a variety of ideas individually, and then the group convened to share all the ideas and form new ideas.
-
+<br/><br/>
 Below is the current state user journey map. As shown, the change point is at the payment stage. That’s why we decided that the best time to make a difference is at the point of sale.
+<br/>
+<br/>
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/mealtap/ideation.jpg" />
+</div>
 <br/><br/>
 
 ### Our Solution
-The MealTap loyalty program will consist of a primarily digital card available to install as an app on your mobile device. The apps features at launch will include a wallet function, Whole Foods related news and a way to load and check the balance. 
 
-The balance can be directly linked to a credit card and autofill at a threshold the user chooses from. The card cannot be loaded with more than $500 for security purposes, e.g. fraud and scams. 
+<div class="flex flex-row items-center">
+  <div class="px-10">
+      <h2 class="text-left">MealTap Loyalty Program</h2>
+      <br />
+      <br />
+      The MealTap loyalty program will consist of a primarily digital card available to install as an app on your mobile device. The apps features at launch will include a wallet function, Whole Foods related news and a way to load and check the balance. The balance can be directly linked to a credit card and autofill at a threshold the user chooses from. The card cannot be loaded with more than $500 for security purposes, e.g. fraud and scams. The card will seamlessly integrate into the mobile devices existing card platform and will use the NFC chip in each phone to be tappable just like a normal credit card would. A physical card can be requested and mailed out to the customer to use in the same way as the digital card.
+  </div>
+  <img src="./images/mealtap/card.jpg" class="px-10">
 
-The card will seamlessly integrate into the mobile devices existing card platform and will use the NFC chip in each phone to be tappable just like a normal credit card would. A physical card can be requested and mailed out to the customer to use in the same way as the digital card.
-
+  </img>
+</div>
+<br/><br/>
 
 Once the customer has created a Whole Foods account (required to use the app) and loaded a balance onto the card, it is ready to be used.
+<br/><br/>
 
 When the customer is finished selecting the prepared foods they wish to purchase, they may proceed to the self weigh and pay station to weigh their food. There will be an employee overlooking the multiple weigh and pay stations to ensure lower risk of gaming the machines. 
+<br/><br/>
 
 Once the weight and price is determined, the customer will be prompted to tap their phone or physical card just like a normal credit card, the price will be deducted from their balance, and a receipt will be printed. That is the end of the customer experience for the MealTap loyalty program.
-
+<br/><br/>
 
 New State: “MealTap” Consumer Journey Map
+<br/>
+<br/>
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/mealtap/solution.jpg" />
+</div>
 <br/><br/>
 
 
-#### Existing Cardholders
-Whole Foods users have the option to integrate the digital card into their payment options to allow for a convenient and waste-free payment option. 
+### Existing Cardholders
+<br/>
 
-There will also be an opportunity for users to request a physical card if they are uncomfortable with using the digital pay option, but there will be a limited quantity available.The digital card is a loadable card on the Whole Foods App, similar to the Presto card in Toronto. 
+Whole Foods users have the option to integrate the digital card into their payment options to allow for a convenient and waste-free payment option. 
+<br/><br/>
+
+There will also be an opportunity for users to request a physical card if they are uncomfortable with using the digital pay option, but there will be a limited quantity available.The digital card is a loadable card on the Whole Foods App, similar to the Presto card in Toronto.
+<br/><br/>
 
 It can be reloaded with an online payment option on the Whole Foods website so there is a declining balance each time the user pays for their food. It can also be linked to digital wallets such as Apple and Google Pay, giving users easy access. The card is also available to be reloaded at the cashier in-store.
+<br/>
+<br/>
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/mealtap/cardholder.jpg" />
+</div>
+<br/><br/>
 
-
-To promote usage, the card will have a points system. The more it is used, the more points are accumulated onto the card. 
+To promote usage, the card will have a points system. The more it is used, the more points are accumulated onto the card.
+<br/><br/>
 
 These points give users the power to vote for new food offerings that Whole Food may release, or have their vote hold a greater weight in suggesting future improvements.
+<br/><br/>
 
 The rewards correspond to the different tiers, with the highest tier being the top 1% of users in Canada. Once the user has entered the 1%, they will automatically receive an email notification and an invite for the Food Committee program, which will be discussed in further slides. The user will also receive invitations to exclusive Whole Foods events, chef cook outs, and other private events hosted by Whole Foods.
 <br/><br/>
 
-#### Sign up Process
-01 Loyalty program tiers
+### Sign up Process
+<br/>
 
-Through gathering and analysis of primary and secondary data, the true value of experiential rewards became profoundly clear.
+<div class="flex flex-row items-center">
+  <div class="px-10">
+      <h4 class="text-left">01 Loyalty program tiers</h2>
+      <br/>
+      Through gathering and analysis of primary and secondary data, the true value of experiential rewards became profoundly clear.
+      <br/><br/>
+      Consumers often prefer experiential gains rather than monetary/material gain. This is particularly true amongst the typically price-insensitive Whole Foods consumers.
+      <br/><br/>
+      Primary research efforts revealed that many consumers “do not care” about loyalty programs that offer discounts and deal promotions. They do not influence the consumer’s decision on where to shop for groceries. 
+      <br/><br/>
+      What consumers love, however, is the high quality and uplifting experience of buying meals and eating at Whole Foods. It is not just about buying a healthy meal, but living out their lifestyle, that is committed to doing good for their bodies, through engaging with a brand that understands them. Thus, we propose purely experiential rewards for the loyalty program.
+      <br/><br/>
+  </div>
+  <img src="./images/mealtap/advert.jpg" class="px-10">
 
-Consumers often prefer experiential gains rather than monetary/material gain. This is particularly true amongst the typically price-insensitive Whole Foods consumers. 
+  </img>
+</div>
+<br/><br/>
 
-Primary research efforts revealed that many consumers “do not care” about loyalty programs that offer discounts and deal promotions. They do not influence the consumer’s decision on where to shop for groceries. 
+<div class="flex flex-row items-center">
+  <div class="px-10">
+      <h4 class="text-left">02 Food Committee Program</h2>
+      <br/>
+      We have decided to explore the idea of hosting a Food Committee Program for Whole Foods Canada. This entails a committee of customers who have proven that they are loyal as they have both the highest purchasing amounts, in terms of dollars spent, and highest number of meals purchased. These metrics are measured by data stored from the cards that are linked to the online website. 
+      <br/><br/>
+      The objectives of the committee are to give the most loyal customers a sense of ownership because they will have a level of influence on the prepared foods selection. It also motivates, rather than alienates, other customers who are not part of the committee to purchase more with the MealTap program in an effort to work their way up to this tier if that is of interest to them.
+      <br/><br/>
+      There will be two tiers of MealTap consumers:
+      The top percentile that meet with WF representatives can directly influence the prepared foods selection and reap elite experiential rewards
+      The other customers can vote for hot and cold food options online, thus they can still feel a sense of ownership that has the potential to develop into long-term loyalty. They can also reap other experiential rewards.
+      <br/><br/>
+  </div>
+  <img src="./images/mealtap/triangle.jpg" class="px-10">
 
-What consumers love, however, is the high quality and uplifting experience of buying meals and eating at Whole Foods. It is not just about buying a healthy meal, but living out their lifestyle, that is committed to doing good for their bodies, through engaging with a brand that understands them. Thus, we propose purely experiential rewards for the loyalty program.
-
-02 Food Committee Program
-
-We have decided to explore the idea of hosting a Food Committee Program for Whole Foods Canada. This entails a committee of customers who have proven that they are loyal as they have both the highest purchasing amounts, in terms of dollars spent, and highest number of meals purchased. These metrics are measured by data stored from the cards that are linked to the online website. 
-
-The objectives of the committee are to give the most loyal customers a sense of ownership because they will have a level of influence on the prepared foods selection. It also motivates, rather than alienates, other customers who are not part of the committee to purchase more with the MealTap program in an effort to work their way up to this tier if that is of interest to them.
-
-There will be two tiers of MealTap consumers:
-The top percentile that meet with WF representatives can directly influence the prepared foods selection and reap elite experiential rewards
-The other customers can vote for hot and cold food options online, thus they can still feel a sense of ownership that has the potential to develop into long-term loyalty. They can also reap other experiential rewards.
+  </img>
+</div>
 <br/><br/>
 
 ### Potential Execution
 The format of the food committee has potential to unfold in a number of ways. 
+<br/><br/>
 
 Through trial and error, Whole Foods can determine if the committee involves strictly deciding on new offerings for the hot and cold food bars through in-person tastings and focus groups. 
+<br/><br/>
 
 Taking another direction, the committee could allow members to present their own dishes and recipes to Whole Foods, for then the company’s representatives to take as inspiration for their recipe and product creation.
 An example of an elite perk for non-committee members that entices participation in the MealTap program and increases frequency of prepared-meal purchases could be a high-end dinner tasting menu served in a sought-after restaurant, enjoyed with a select number of friends.
+<br/><br/>
 
 Among the rest of the customers who use the app but are not part of the top percentile, we decided to implement luck of the draw awards for staying active on the WF app by purchasing prepared foods. The prizes will range from participating in top percentile events, other experiential events that surround the WF ideology such as free yoga classes.
 <br/><br/>
@@ -195,17 +252,24 @@ Among the rest of the customers who use the app but are not part of the top perc
 ## Implementation
 ### Action Plan
 Our goal is to grow WholeFoods prepared meal shoppers’ loyalty by increasing the number of registered and active users in the MealTap program. We compliment our solution with some nudges to encourage prepared meal shoppers to join the program, by making the opportunity cost of not participating salient.
+<br/><br/>
 
 The implementation for the MealTap program will occur in three main phases. 
+<br/><br/>
 
 Phase 1 includes the research and development of the MealTap program and associated app platforms as well as the machinery and equipment sourcing to support the in-store efforts. At this stage, store managers will be engaged with the program to ensure that they can assist both employees and customers with the transition process. 
+<br/><br/>
 
-Secondly, Phase 2 onboards the prepared meal shoppers onto the MealTap program. We will create a strong pull towards the new program by ensuring that the sign-up process is quick and easy. Trained Wholefoods employee experts will be positioned at the prepared grab-and-go food counters to explain and promote the program. The prepared meal section will be tweaked to accommodate the new weigh-and-pay machines, however we remain consistent in keeping the high standard and quality of the store.  
+Secondly, Phase 2 onboards the prepared meal shoppers onto the MealTap program. We will create a strong pull towards the new program by ensuring that the sign-up process is quick and easy. Trained Wholefoods employee experts will be positioned at the prepared grab-and-go food counters to explain and promote the program. The prepared meal section will be tweaked to accommodate the new weigh-and-pay machines, however we remain consistent in keeping the high standard and quality of the store.
+<br/><br/>
 
-Lastly, in Phase 3, we foresee many more prepared meal shoppers joining the program out of fear of missing out. We aim for consumers to recognize MealTap as a way to unlock unique experiential rewards and feel part of a community in which they can take ownership for the good they are doing for their bodies with Whole Foods. 
-
-
-
+Lastly, in Phase 3, we foresee many more prepared meal shoppers joining the program out of fear of missing out. We aim for consumers to recognize MealTap as a way to unlock unique experiential rewards and feel part of a community in which they can take ownership for the good they are doing for their bodies with Whole Foods.
+<br/>
+<br/>
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/mealtap/implementation.jpg" />
+</div>
+<br/><br/>
 
 In essence, MealTap changes the way shoppers experience the in-store prepare meal service with emphasis on quality and exceptional delivery. Historically, Whole Foods has greatly benefited from the strong network effect of its target community[1], we expect that this network will easily make MealTap ‘go viral’ and entice other loss-averse shoppers to actively seek membership. 
 
@@ -214,22 +278,34 @@ Our solution is scalable and transferable, it has the potential for creating gre
 
 ### Metrics
 We predict three main impacts to come from the implementation of MealTap. The impacts include an increase in customer satisfaction, an increase in prepared- food revenues and a decrease in wait times for Express checkout lines. All three effects work together to drive customer loyalty to the prepared-meals as a whole.
+<br/><br/>
 
 An example of how we will test these impacts can be seen through the lens of customer satisfaction. Through email, customers will be invited to provide their feedback on the quality of service for Whole Foods’ prepared meals, with a special emphasis on the Express Checkout service and the prepared meal offerings and process. The Whole Foods guest experience survey found at [www.wfm.com/feedback](http://www.wfm.com/feedback) can easily incorporate these question areas. Prepared-meal shoppers will rate their experiences for a number of different questions using a 5-point Likert scale, from very satisfied (5) to very unsatisfied (1). The results can be averaged at each stage; pre-MealTap, mid- MealTap and post-MealTap. The figure above shows our conservative weekly projections for the average increase in customer satisfaction, at 13%. This is reflective of our research which shows that grocery retail loyalty rates are growing at 23% [1].
+<br/><br/>
 
 Another test we will perform to gauge the success of the MealTap is to record the average wait times on the express checkout lines. Prepared meal shoppers walking into the express lines will be randomly selected to be a subject in this test. We expect that the wait times will continue to decrease as customers’ use of MealTap increases. Experts census unveiled that customers were not willing to wait for more than 10 minutes [2] in standard line, there for the express wait times should be much lower. We expect to see positive customer feedback and decrease in wait times at express checkout in the post- Meal tap intervention weeks.
+<br/>
+<br/>
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/mealtap/metrics.jpg" />
+</div>
 <br/><br/>
 
 ### Implementation Risks & Mitigation
 Given that the process of using the MealTap card relies heavily on the goodwill of customers to pay for their meals, similar to self-checkout lines, theft is a very real and prevalent risk. This sort of theft has been seen widely through many grocery stores that have implemented self-checkout systems as the incentive of not having to pay for items, with the ability to easily claim ignorance if caught, is enticing for many customers. A study of 1 million transactions was conducted in the U.K shows that when customers were given the option to steal using a self-checkout machine, similar to how our MealTap-weigh and pay system operates, theft nearly tripled from 1.47% of stock to 3.97% (Mortimer, Gary, and Paula Dootson).
+<br/><br/>
 
 Another risk of implementing the MealTap card  is that it will prove to become too cumbersome for customers to carry additional physical cards. Through our data collection stemming from intercept and empathy interviews, a large proportion or Whole Foods customers had stated that they prefer carrying as few cards with them as possible. When asked why, they stated that their wallets are often filled with credit/debit cards, presto cards, along with other irreplaceable and essential cards that they require with them on a daily basis. The effort required to constantly remind themselves to bring a card such as the MealTap card each time they go shopping is too cumbersome and often isn’t worth the extra conscious effort. If many customers opt to go this route, the implementation of the MealTap card could fail as many customers wouldn’t capitalize on the new program.
+<br/><br/>
 
 To mitigate some of the risks stated previously, we propose the following solutions:
+<br/><br/>
 
 A door greeter, similar to those at Costco and clothing retailers, to verify the customer has indeed paid for their items using the MealTap card.
 Rather than having an exclusively physical copy of the MealTap card, it would be best to also implement a digital version that could be stored and monitored in your smartphone’s digital wallet and through a Whole Foods application.
+<br/><br/>
 
 Firstly, the door greeter would be responsible for verifying that the MealTap items purchased by the customer had been properly paid for. While this would marginally cut into the added efficiency created by the implementation of the MealTap card, we recommend designing it as an efficient system similar to the Costco door greeters as it is only a quick check with an eye glance to locate a “Paid” sticker on the Whole Foods takeout box. We believe that the benefits of limiting theft of Whole Foods’ expensive and high-quality products is worth sacrificing a small amount of efficiency. Given that theft increases by such a large proportion once implementing goodwill systems like a self-checkout, or in our case the MealTap card, a precautionary system such as this would greatly benefit Whole Foods by limiting theft.
+<br/><br/>
 
 Secondly, the digital version of the MealTap card would help address the risk of many customers failing to adopt the new program due to a cumbersome physical card. As many customers carry their phones with them on a consistent basis and rarely bring many personal items to the store, as seen through our observations during our Whole Foods visit, it will be far easier to access the MealTap card at all times without having to remember bringing the physical copy. We believe that this will help many customers embrace the new program as it is easily accessible at all times rather than only being accessible with the physical copy of the MealTap card. Having both ensures success across different demographics and digital literacy levels.

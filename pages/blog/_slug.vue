@@ -81,6 +81,7 @@
                         'py-2': link.depth === 2,
                         'ml-6 pb-2': link.depth === 3,
                       }"
+                      style="text-decoration: underline dotted;"
                     >
                       <NuxtLink :to="`#${link.id}`"
                         >{{ idx + 1 }} {{ link.text }}</NuxtLink
