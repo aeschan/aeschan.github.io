@@ -19,6 +19,7 @@ tools:
     - Github
 platform: Browser Extension
 ---
+
 ## Overview
 ### The Challenge<br />
 In 12 weeks, go through the design process and research the problem of Media Representation and design a solution.
@@ -117,11 +118,11 @@ The results motivated us to:
 We conducted a competitive analysis on existing products aimed to diminish misinformation on various platforms. To our knowledge, there is no existing service that directly addresses health claim misinformation.
 <br /><br /><br />
 <div class="flex flex-wrap">
-  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/brand1.jpg" class="px-10" />
-  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/brand2.jpg" class="px-10" />
-  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/brand3.jpg" class="px-10" />
-  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/brand4.jpg" class="px-10" />
-  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/brand5.jpg" class="px-10" />
+  <img class="flex-auto object-scale-down content-center px-10 py-5" src="./images/taurus/brand1.jpg" />
+  <img class="flex-auto object-scale-down content-center px-10 py-5" src="./images/taurus/brand2.jpg" />
+  <img class="flex-auto object-scale-down content-center px-10 py-5" src="./images/taurus/brand3.jpg" />
+  <img class="flex-auto object-scale-down content-center px-10 py-5" src="./images/taurus/brand4.jpg" />
+  <img class="flex-auto object-scale-down content-center px-10 py-5" src="./images/taurus/brand5.jpg" />
 </div>
 <br /><br />
 
@@ -135,7 +136,9 @@ We narrowed down the users’ needs to:
 ### Persona
 Based on the secondary research and interviews, I took the lead to create the following personas to help up guide our design.
 <br /><br />
-<img src="./images/taurus/persona.jpg" class=" mx-auto max-w-4xl" />
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/taurus/persona.jpg" />
+</div>
 <br /><br />
 
 
@@ -184,19 +187,25 @@ After discussions with the engineers on technical and time constraints, we ident
 ### User Flow
 Based off our research, we created a basic outline of the user journey of their shopping experience with and without the product.
 <br /><br />
-<img src="./images/taurus/flow.jpg" class=" mx-auto max-w-4xl" />
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/taurus/flow.jpg" />
+</div>
 <br /><br />
 
 ### Sketches & Wireframes
 I created a lo-fi wireflow to help make sure that everyone was on the same page. We also used this to discuss feasibility of individual features and prioritize them in our development timeline:
 <br /><br />
-<img src="./images/taurus/wireframe.jpg" class=" mx-auto max-w-4xl" />
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/taurus/wireframe.jpg" />
+</div>
 <br /><br />
 
 ### Mid-fidelity Design Iteration 1
 Based on the secondary research and interviews, I took the lead to create the following personas to help up guide our design.
 <br /><br />
-<img src="./images/taurus/iteration.jpg" class=" mx-auto max-w-4xl" />
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/taurus/iteration.jpg" />
+</div>
 <br /><br />
 
 ### Usability Testing & Iteration
@@ -205,15 +214,17 @@ We created the following wireframes and created a survey for our potential users
 Due to team flow and time constraints, I conducted usability testing with a Mid-fidelity clickable prototype, with the the goal of measuring navigation and the call to action feature of the button.
 <br /><br />
 <div class="flex flex-row flex-wrap">
-  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/usability.jpg" class="px-10" />
-  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/testing.jpg" class="px-10" />
+  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/usability.jpg" />
+  <img class="flex-auto object-scale-down content-center mx-6" src="./images/taurus/testing.jpg" />
 </div>
 <br /><br />
 
 ### The MVP
 Here is the final clickable Prototype.
 <br /><br />
-<img src="./images/taurus/wireframe.jpg" class=" mx-auto max-w-4xl" />
+<div class="flex flex-row mx-auto max-w-4xl">
+  <img src="./images/taurus/wireframe.jpg" />
+</div>
 <br /><br />
 
 

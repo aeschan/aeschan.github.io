@@ -9,7 +9,7 @@
     "
   >
     <article>
-      <div class="flex flex-col max-w-7xl px-10">
+      <div class="flex flex-col max-w-7xl mx-auto">
         <div
           class="
             flex-1 flex-col
