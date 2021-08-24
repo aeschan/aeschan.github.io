@@ -19,9 +19,6 @@ export default {
   server: {
     host: ''
   },
-  // serverMiddleware: [
-  //   '~/middleware/redirect.js'
-  // ],
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

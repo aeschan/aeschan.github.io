@@ -9,7 +9,8 @@ purge: {
     'nuxt.config.js',
     // TypeScript
     'plugins/**/*.ts',
-    'nuxt.config.ts'
+    'nuxt.config.ts',
+    'content/**/*.md'
     ]
 },
 darkMode: false, // or 'media' or 'class'
